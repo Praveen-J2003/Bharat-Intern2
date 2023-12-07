@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, section, footer {
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e60d0d;
+    height:50px;
+}
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(161, 5, 5);
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height:50px;
+}
+
+.post {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #f60000;
+}
+
+#submit-form {
+    width: 60%;
+    margin: 20px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #b90c0c;
+    color: rgb(182, 15, 15)
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #37c90a;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5fde10; /* Light gray background color */
+}
+
+header {
+    text-align: center;
+    background-color: #6d0d0d; /* Dark background color for the header */
+    color: rgb(202, 16, 16)55, 255, 255); /* White text color for the header */
+    padding: 10px;
+}
+
+#confirmation-message {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(83, 180, 44); /* Success message background color */
+    border: 1px solid #3c763d; /* Success message border color */
+    color: #3c763d; /* Success message text color */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #d20505; /* Dark background color for the footer */
+    color: rgb(143, 66, 66); /* White text color for the footer */
+    padding: 10px;
+}
